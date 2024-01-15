@@ -4,3 +4,120 @@
 * {
   font-family: 'Open Sans', sans-serif;
 }
+body {
+  /* width: auto; */
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* nav styles */
+nav {
+  align-items: center;
+}
+.n-container {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 50px;
+}
+.header-logo {
+  display: flex;
+}
+.header-logo > img {
+  margin-right: 15px;
+}
+. nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin: 25px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+nav li a {
+  text-decoration: none;
+  color: #424247;
+}
+.nav-text {
+  display: flex;
+}
+.home-color {
+  color: #ff5400;
+  font-weight: 700;
+}
+.common-heading {
+  color: #131318;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-right: 50px;
+}
+.header-color {
+  color: #ff5400;
+  font-size: 2rem;
+  font-weight: 800;
+}
+/* banner section */
+.banner-container {
+  background-image: url(../Images/group13.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1092px;
+  height: 500px;
+  margin-top: 50px;
+  margin: auto;
+  border-radius: 15px;
+  text-align: center;
+}
+.all-text {
+  /* align-items-horigental: center; */
+  margin-top: 50px;
+  width: 100%;
+}
+.banner-text {
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.form-box {
+  text-align: center;
+}
+.banner-title {
+  color: #fff;
+  font-size: 3.5555rem;
+  width: 800;
+}
+.form-box {
+  color: rgba(255, 255, 255, 0.637);
+  padding: 25px;
+}
+.form-style {
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  padding: 18px 21px;
+  margin-right: 10px;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.444);
+}
+.form-box > button {
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  padding: 18px 21px;
+  font-weight: 700;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.956);
+  color: rgba(255, 255, 255, 0.963);
+}
+/* popular section */
+.popular-container {
+  width: 1092px;
+  margin: auto;
+  margin-top: 50px;
+}
