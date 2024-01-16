@@ -51,13 +51,13 @@ nav li a {
 }
 .common-heading {
   color: #131318;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 800;
   margin-right: 50px;
 }
 .header-color {
   color: #ff5400;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 800;
 }
 /* banner section */
@@ -65,12 +65,14 @@ nav li a {
   background-image: url(../Images/group13.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 1150px;
   height: 500px;
-  margin-top: 50px;
   margin: auto;
-  border-radius: 15px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 .all-text {
   margin-top: 50px;
@@ -290,6 +292,7 @@ nav li a {
   width: 80vw;
   margin: auto;
   margin-top: 4rem;
+  margin-bottom: 50px;
 }
 #chooser-container > div {
   text-align: center;
@@ -405,9 +408,52 @@ nav li a {
   font-size: 1.5rem;
   font-weight: 800;
 }
-/* Responsive media queries */
-/* mobile device */
-@media screen and (max-width: 600px) {
+/* footer section */
+#footer-container {
+  width: 100vw;
+  margin-top: 4rem;
+  padding: 100px;
+  background: rgba(19, 19, 24, 0.1);
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.footer-title {
+  display: flex;
+}
+.footer-title img {
+  width: 62px;
+  height: 54px;
+  margin-right: 25px;
+}
+
+.footer-title > h2 {
+  margin-top: -8px;
+}
+.social-icon {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+}
+#footer-container > hr {
+  border: none;
+  width: 920px;
+  height: 1px;
+  background: rgba(19, 19, 24, 0.1);
+}
+.footer-header {
+  font-size: 3.5555rem;
+  width: 800;
+}
+/* Responsive media queries  */
+@media only screen and (max-width: 600px) {
+  /* banner section */
+  body {
+    width: 320px;
+    height: 100%;
+    margin: auto;
+    margin-right: 10%;
+  }
   .n-container {
     flex-direction: column;
   }
@@ -416,38 +462,94 @@ nav li a {
     margin: 10px;
     height: auto;
   }
-  .banner-container {
-    width: 330px;
-    height: 480;
+  #banner-container {
+    width: 320px;
+    height: 90%;
     margin: auto;
-    padding: auto;
-  }
-  .banner-title {
-    font-size: 2rem;
-    /* flex-direction: column; */
+    text-align: center;
+    padding-bottom: 15px;
   }
   .form-box {
-    display: flex;
-    width: 287px;
-    padding: 16px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    text-align: center;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px 0;
+    place-items: center;
   }
-
+  .banner-title {
+    font-size: 1rem;
+    padding-top: 30px;
+  }
   .popular-container {
     flex-direction: column;
     width: 560px;
   }
-  .popular-text {
-    width: auto;
-    margin-right: 10px;
-  }
-  .Choose-container {
-    grid-template-columns: 1fr 0;
-  }
-  #service-card-container {
+  /* first section */
+  #tour-description-contaier {
+    width: 80%;
+    margin: auto;
+    display: flex;
     flex-direction: column;
+    margin-top: 15px;
+  }
+  #tour-description-contaier > img {
+    width: 95%;
+    height: 100%;
+    margin-top: 1rem;
+  }
+  /* travel destination second section */
+  #travel-destination-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+  }
+  .first-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+  .second-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+  .third-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .srilanka {
+    height: 200px;
+  }
+  .kashmir {
+    height: 200px;
+  }
+  .bandarban {
+    height: 200px;
+  }
+  /* why choose third section */
+  #service-card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #chooser-container > .service-box-guarantee {
+    width: 80vw;
+  }
+  /* Newsletter four section */
+  #newslater-contaier {
+    /* display: grid;
+    grid-template-columns: 1fr; */
+    flex-direction: column;
+  }
+  .save-up {
+    width: 210px;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 34px;
+    right: 7px;
+  }
+  /* footer-section */
+  #footer-container {
+    width: 320px;
   }
 }
