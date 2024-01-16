@@ -66,15 +66,13 @@ nav li a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 1092px;
+  width: 1150px;
   height: 500px;
   margin-top: 50px;
   margin: auto;
   border-radius: 15px;
-  text-align: center;
 }
 .all-text {
-  /* align-items-horigental: center; */
   margin-top: 50px;
   width: 100%;
 }
@@ -126,7 +124,10 @@ nav li a {
   color: rgba(19, 19, 24, 0.7);
   font-size: 1rem;
   font-weight: 400px;
-  line-height: 30px;
+  line-height: 27px;
+}
+#mahadi {
+  margin-top: 1rem;
 }
 .ul-description {
   margin-left: 40px;
@@ -134,7 +135,7 @@ nav li a {
   font-size: 1rem;
   font-weight: 400px;
   margin: 32px;
-  line-height: 30px;
+  line-height: 27px;
 }
 .primary-btn {
   border: none;
@@ -145,4 +146,232 @@ nav li a {
   text-align: center;
   background-color: rgba(255, 0, 0, 0.956);
   color: white;
+  margin-top: 1.8rem;
+}
+/* choose section */
+.Choose-container {
+  width: 80vw;
+  margin: auto;
+}
+.choose-text {
+  width: 80vw;
+  margin: auto;
+  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 1.9rem;
+}
+#saikot {
+  margin-top: 1.34rem;
+}
+.first-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.second-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1rem;
+}
+.third-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+/* maldives img */
+.maldives {
+  position: relative;
+  text-align: center;
+}
+.maldives > h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+}
+/* insonesia img */
+.indonesia {
+  position: relative;
+  text-align: center;
+}
+.indonesia > h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+}
+/* srilanka img */
+.srilanka {
+  position: relative;
+  text-align: center;
+}
+.srilanka > h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+}
+/* north-america img */
+.north-america {
+  position: relative;
+  text-align: center;
+}
+.north-america > h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+}
+/* kashmir img */
+.kashmir {
+  position: relative;
+  text-align: center;
+}
+.kashmir > h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+}
+/* bangladesh img */
+.bangladesh {
+  position: relative;
+  text-align: center;
+}
+.bangladesh > h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+}
+/* bandarban img */
+.bandarban {
+  position: relative;
+  text-align: center;
+  height: auto;
+}
+.bandarban > h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+/* why choose third section */
+#chooser-container {
+  width: 80vw;
+  margin: auto;
+  margin-top: 4rem;
+}
+#chooser-container > div {
+  text-align: center;
+}
+#chooser-container > h2 {
+  margin-bottom: 1rem;
+}
+.location-content {
+  margin: 1.5rem 0;
+}
+#service-card-container {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+#service-card-container > .service-box-hotel {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 1rem;
+}
+.service-box-hotel > h3 {
+  margin: 1rem 0;
+}
+#service-card-container > .service-box-location {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 1rem;
+}
+.service-box-location > h3 {
+  margin: 1rem 0;
+}
+#chooser-container > .service-box-guarantee {
+  width: 40vw;
+  margin: auto;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.service-box-guarantee > h3 {
+  margin: 1rem 0;
+}
+
+/* Responsive media queries */
+/* mobile device */
+@media screen and (max-width: 600px) {
+  .n-container {
+    flex-direction: column;
+  }
+  .nav-text {
+    flex-direction: column;
+    margin: 10px;
+    height: auto;
+  }
+  .banner-container {
+    width: 330px;
+    height: 480;
+    margin: auto;
+    padding: auto;
+  }
+  .banner-title {
+    font-size: 2rem;
+    /* flex-direction: column; */
+  }
+  .form-box {
+    display: flex;
+    width: 287px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .popular-container {
+    flex-direction: column;
+    width: 560px;
+  }
+  .popular-text {
+    width: auto;
+    margin-right: 10px;
+  }
+  .Choose-container {
+    grid-template-columns: 1fr 0;
+  }
 }
