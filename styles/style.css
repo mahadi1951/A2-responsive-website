@@ -317,6 +317,9 @@ nav li a {
 .bangladesh-image-container > img {
   gap: 20px;
 }
+.bangladesh-image-container p {
+  font-weight: 800px;
+}
 /* why choose third section */
 #chooser-container {
   width: 80vw;
