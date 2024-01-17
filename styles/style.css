@@ -66,8 +66,8 @@ nav li a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
-  width: 1150px;
-  height: 500px;
+  width: 80vw;
+  height: 450px;
   margin: auto;
   border-radius: 5px;
   text-align: center;
@@ -79,27 +79,31 @@ nav li a {
   width: 100%;
 }
 .banner-text {
-  text-align: center;
-  color: #fff;
   font-size: 1rem;
-  font-weight: 400;
+  font-family: Mulish;
+  font-weight: 300;
+  margin-bottom: 40px;
+  color: rgba(255, 255, 255, 0.608);
 }
 .form-box {
-  text-align: center;
-  flex-direction: column;
+  width: 722px;
+  height: 87px;
+  margin: auto;
+  background-color: rgba(240, 248, 255, 0.372);
+  border-radius: 5px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .banner-title {
-  color: #fff;
-  font-size: 3.5555rem;
-  width: 800;
-  /* display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; */
+  color: white;
+  font-size: 3.7rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-top: 72px;
 }
 .form-box {
   color: rgba(255, 255, 255, 0.637);
-  padding: 25px;
+  padding: 1rem;
 }
 .form-style {
   border: none;
@@ -340,7 +344,7 @@ nav li a {
   margin: 1rem 0;
 }
 /* Newsletter third section */
-#newslater-container {
+.newslater-container {
   width: 81vw;
   margin-top: 3rem;
   margin: auto;
@@ -355,7 +359,7 @@ nav li a {
   border-radius: 0.75rem;
   padding: 1rem;
 }
-.newslater-description hr {
+.newslater-description > hr {
   border: none;
   height: 1px;
   background: rgba(19, 19, 24, 0.1);
@@ -449,7 +453,7 @@ nav li a {
 @media only screen and (max-width: 600px) {
   /* banner section */
   body {
-    width: 320px;
+    width: 100%;
     height: 100%;
     margin: auto;
     margin-right: 10%;
@@ -470,7 +474,7 @@ nav li a {
     padding-bottom: 15px;
   }
   .form-box {
-    width: 300px;
+    width: 60%;
     height: 300px;
     display: grid;
     grid-template-columns: 1fr;
@@ -481,29 +485,25 @@ nav li a {
     font-size: 1rem;
     padding-top: 30px;
   }
-  .popular-container {
-    flex-direction: column;
-    width: 560px;
-  }
   /* first section */
-  #tour-description-contaier {
+  .popular-container {
     width: 80%;
     margin: auto;
     display: flex;
     flex-direction: column;
     margin-top: 15px;
   }
-  #tour-description-contaier > img {
+  .img {
     width: 95%;
     height: 100%;
     margin-top: 1rem;
   }
   /* travel destination second section */
-  #travel-destination-container {
+  /* .popular-container {
     width: 80%;
     height: 100%;
     margin: auto;
-  }
+  } */
   .first-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -536,10 +536,10 @@ nav li a {
     width: 80vw;
   }
   /* Newsletter four section */
-  #newslater-contaier {
-    /* display: grid;
-    grid-template-columns: 1fr; */
-    flex-direction: column;
+  .newslater-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
   }
   .save-up {
     width: 210px;
@@ -550,6 +550,10 @@ nav li a {
   }
   /* footer-section */
   #footer-container {
-    width: 320px;
+    width: 100%;
+    padding: 50px;
+  }
+  #footer-container > hr {
+    width: 80%;
   }
 }
